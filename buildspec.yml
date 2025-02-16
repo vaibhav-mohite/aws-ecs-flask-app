@@ -18,6 +18,3 @@ phases:
     - echo Pushing the Docker image into ECR..!!!
     - docker push 723330070958.dkr.ecr.ap-south-1.amazonaws.com/aws-ecs-flask-app-repo:latest
     - echo Creating image definitions file..!!!
-
-artifacts:
-  files: imagedefinitions.json
